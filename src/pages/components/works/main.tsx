@@ -1,8 +1,5 @@
-import Footer from '../home/footer';
 import Cards  from './cards'
-import Avatar from "../../../../public/avatar.jpeg"
 import {
-  BsTerminalFill,
   BsFillCloudDrizzleFill,
   BsFillClipboardDataFill,
   BsFillChatRightTextFill

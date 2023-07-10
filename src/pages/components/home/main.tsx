@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Avatar  from '../../../../public/avatar.jpeg'
 import { BsPersonWorkspace } from "react-icons/bs";
 import { motion } from "framer-motion"
 import Link from 'next/link';
