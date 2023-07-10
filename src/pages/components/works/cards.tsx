@@ -1,4 +1,3 @@
-
 import React from "react";
 import { IconType } from "react-icons/lib";
 
@@ -10,19 +9,21 @@ interface CardsProps {
   UrlWeb: string;
 }
 
-export default function Cards({
+const Cards: React.FC<CardsProps> = ({
   CardName,
   CardDesc,
   CardIcon,
   UrlRepositorio,
-  UrlWeb
-}: CardsProps) {
+  UrlWeb,
+}) => {
   return (
     <div className="p-4 w-80 h-52 bg-white rounded-lg shadow transition-colors dark:bg-black hover:bg-white/5">
-      <div className="">
-        {React.createElement(CardIcon)}
-      </div>
-      <a href={UrlWeb} target="_blank">
+      <div>{React.createElement(CardIcon)}</div>
+      <a
+        href={UrlWeb}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <h5 className="mb-2 mt-5 text-xl font-semibold tracking-tight text-gray-950 dark:text-white">
           {CardName}
         </h5>
@@ -33,8 +34,8 @@ export default function Cards({
       <a
         href={UrlRepositorio}
         target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center text-200 hover:underline"
-        
       >
         Repositório
         {/* <svg
@@ -46,13 +47,15 @@ export default function Cards({
         >
           <path
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"
           />
         </svg> */}
       </a>
     </div>
   );
-}
+};
+
+export default Cards;
