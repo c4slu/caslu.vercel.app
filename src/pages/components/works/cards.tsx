@@ -1,7 +1,5 @@
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
-import Image from "next/image";
-import React, { ReactNode } from "react";
-import { IconBaseProps } from "react-icons";
+
+import React from "react";
 import { IconType } from "react-icons/lib";
 
 interface CardsProps {
