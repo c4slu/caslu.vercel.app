@@ -1,4 +1,8 @@
 import { BsPersonWorkspace } from "react-icons/bs";
+import { DiJavascript1, DiPython, DiReact } from "react-icons/di";
+import {BiLogoTailwindCss} from "react-icons/bi"
+import { RxStitchesLogo } from "react-icons/rx";
+import { TbSql } from "react-icons/tb";
 import { motion } from "framer-motion"
 import Link from 'next/link';
 export default function Main() {
@@ -30,6 +34,26 @@ export default function Main() {
             </span>
           </button>
         </Link>
+        <div className="flex mt-4 text-2xl gap-2 text-white w-auto">
+          <span className="transition-colors cursor-pointer hover:text-sky-500">
+            <DiReact />
+          </span>
+          <span className="transition-colors cursor-pointer hover:text-yellow-400">
+            <DiJavascript1 />
+          </span>
+          <span className="transition-colors cursor-pointer hover:text-sky-900">
+            <DiPython />
+          </span>
+          <span className="transition-colors cursor-pointer hover:text-sky-400">
+            <BiLogoTailwindCss />
+          </span>
+          <span className="transition-colors cursor-pointer hover:text-gray-400">
+            <RxStitchesLogo />
+          </span>
+          <span className="transition-colors cursor-pointer hover:text-sky-900">
+            <TbSql />
+          </span>
+        </div>
       </div>
     </motion.div>
   );

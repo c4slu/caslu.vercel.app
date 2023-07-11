@@ -4,8 +4,12 @@ import {
   BsFillHouseDoorFill,
   BsTerminalFill,
 } from "react-icons/bs";
+import { useState } from "react";
+
 
 export default function NavBar() {
+  const [hovered, setHovered] = useState('')
+
   return (
     <nav>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
@@ -18,7 +22,7 @@ export default function NavBar() {
         <div className="text-white">
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium  md:flex-row md:space-x-8 ">
             <Link href="./">
-              <li className="group flex text-xs py-2 pl-3  transition-colors pr-4 hover:bg-gray-900 hover:text-white font-bold text-gray-300 rounded">
+              <li className="group flex text-xs py-2 pl-3  transition-colors pr-4 hover:bg-gray-900 hover:text-white font-semibold text-gray-300 rounded">
                 Home
                 <span className="opacity-0 ml-1.5 transition-opacity duration-300 flex items-center group-hover:opacity-100">
                   <BsFillHouseDoorFill />
@@ -26,7 +30,7 @@ export default function NavBar() {
               </li>
             </Link>
             <Link href="./works">
-              <li className="group flex text-xs py-2 pl-3 transition-colors pr-4 font-bold hover:text-white hover:bg-gray-900 text-gray-300 rounded">
+              <li className="group flex text-xs py-2 pl-3 transition-colors pr-4 font-semibold hover:text-white hover:bg-gray-900 text-gray-300 rounded">
                 Works
                 <span className="opacity-0 ml-1.5 transition-opacity duration-300 flex items-center group-hover:opacity-100">
                   <BsTerminalFill />
@@ -37,7 +41,7 @@ export default function NavBar() {
         </div>
         <div className="items-center justify-center text-gray-300 hover:text-white hover:bg-gray-900 hidden w-full md:flex md:w-auto md:order-1">
           <a href="#" className="p-2 rounded">
-            <BsBrightnessLowFill />
+            {/* <BsBrightnessLowFill /> */}
           </a>
         </div>
       </div>
