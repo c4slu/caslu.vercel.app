@@ -25,7 +25,7 @@ export default function Main() {
           Um programador, focado em virar uma refêrencia.
         </p>
         <Link href="./works">
-          <button className="transition-colors mt-4 transition-hover duration-500 hover:bg-gray-900 rounded p-2 ">
+          <button className="transition-colors mt-4 transition-hover duration-500 hover:bg-white/10 rounded p-2 ">
             <span className="text-white gap-2 flex items-center">
               <BsPersonWorkspace />
               <p className="font-semibold text-sm text-white flex items-center justify-center">
@@ -35,16 +35,16 @@ export default function Main() {
           </button>
         </Link>
         <div className="flex mt-4 text-2xl gap-2 text-white w-auto">
-          <span className="transition-colors cursor-pointer hover:text-sky-500">
+          <span className="transition-colors duration-500 cursor-pointer hover:text-sky-500">
             <DiReact />
           </span>
-          <span className="transition-colors cursor-pointer hover:text-yellow-400">
+          <span className="transition-colors duration-500 cursor-pointer hover:text-yellow-400">
             <DiJavascript1 />
           </span>
-          <span className="transition-colors cursor-pointer hover:text-sky-900">
+          <span className="transition-colors duration-500 cursor-pointer hover:text-sky-900">
             <DiPython />
           </span>
-          <span className="transition-colors cursor-pointer hover:text-sky-400">
+          <span className="transition-colors duration-500 cursor-pointer hover:text-sky-400">
             <BiLogoTailwindCss />
           </span>
           <span className="transition-colors cursor-pointer hover:text-gray-400">
