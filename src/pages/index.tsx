@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 
-import Navbar from './components/home/nav'
-import Main from './components/home/main'
-import Footer from './components/home/footer'
+import Navbar from '../components/home/nav'
+import Main from '../components/home/main'
+import Footer from '../components/home/footer'
 
 export default function Home() {
   return (
