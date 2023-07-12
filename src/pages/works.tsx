@@ -1,5 +1,5 @@
-import Footer from '../components/home/footer';
-import Navbar  from '../components/home/nav';
+import Footer from '../components/footer';
+import Navbar  from '../components/nav';
 import MainWorks from '../components/works/main';
 export default function Workds() {
 
