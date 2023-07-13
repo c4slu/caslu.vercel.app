@@ -4,13 +4,13 @@ import { BsInstagram, BsGithub, BsLinkedin, BsFillEnvelopeFill  } from "react-ic
 import { motion } from 'framer-motion'
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 pb-4 w-full">
+    <footer className="flex flex-col items-center justify-center w-full">
       <motion.div 
       initial={{ y: 10, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: -10, opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="flex gap-3.5 justify-center">
+      className="flex xl:gap-3.5 md:gap-2 justify-center">
         <a
           href="https://www.instagram.com/kssluu/"
           target="_blank"

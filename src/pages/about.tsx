@@ -3,13 +3,15 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/nav";
 
 export default function About() {
-  return(
+  return (
     <div>
       <Navbar />
       <div>
-        <Main/>
+        <Main />
       </div>
-      <Footer />
+      <div className="flex justify-center my-6">
+        <Footer />
+      </div>
     </div>
-  )
+  );
 }

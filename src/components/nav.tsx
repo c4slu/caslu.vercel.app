@@ -12,14 +12,14 @@ export default function Navbar() {
   const [hovered, setHovered] = useState("");
 
   return (
-    <header className="flex items-center text-white text-xs min-h-59 w-full flex-wrap absolute top-1 z-3">
+    <header className="flex items-center justify-center text-white text-xs min-h-59 w-full absolute top-1 z-3">
       <Link href="/" passHref>
         <button className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-lime-600 font-bold text-2xl mt-5 ml-12">
           L
         </button>
       </Link>
 
-      <nav className="text-center flex-1 order-2 flex-basis-100% bp2:order-0 bp2:flex-basis-initial bp3:overflow-x-scroll bp3:overflow-y-hidden">
+      <nav className="text-center flex-1 order-2 order-0">
         <ul className="inline-flex relative top-5 list-none m-0 p-0">
           {pages.map((page) => {
             const path = `/${page.toLowerCase()}`;

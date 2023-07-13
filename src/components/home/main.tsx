@@ -12,14 +12,14 @@ export default function Main() {
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: -10, opacity: 0 }}
       transition={{ duration: 0.9 }}
-      className="flex justify-between mx-56"
+      className="flex sm:justify-between lg:mx-56 -pl-40 md:items-center"
     >
       <div className="p-7">
         <p className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-500 to-lime-600 font-bold text-4xl ">
           Lucas R. do Nascimento
         </p>
         <p className="text-gray-200 pt-4 font-semibold">
-          Front-End Developer | Data Analyst PL
+          Front-End Developer | Data Analyst
         </p>
         <p className="text-gray-400 pt-1 text-sm">
           Um programador, focado em virar uma refêrencia.

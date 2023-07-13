@@ -8,8 +8,8 @@ export default function Workds() {
       <Navbar />
       <div className="mt-20">
         <MainWorks />
-      </div>
-      <div>
+      </div>      
+      <div className='absolute bottom-0 flex justify-center w-screen my-6'>
         <Footer />
       </div>
     </div>

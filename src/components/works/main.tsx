@@ -32,7 +32,7 @@ export default function MainWorks() {
         transition={{ duration: 0.9 }}
         className="flex justify-center pt-10 items-center"
       >
-        <div className="grid gap-10 grid-cols-3 grid-rows-1 ">
+        <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3 xl:grid-rows-1 md:grid-rows-2">
           <Cards
             CardIcon={BsFillCloudDrizzleFill}
             CardName="Scare Climate"

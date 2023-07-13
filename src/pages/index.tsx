@@ -5,13 +5,13 @@ import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div className="mx-auto bg-black">
+    <div className=" bg-black">
       <div className='mb-10'>
       <Navbar />
-      <div className="mt-56">
+      <div className="flex sm:justify-center h-full mt-48">
         <Main />
       </div>
-      <div className=''>
+      <div className='absolute bottom-0 flex justify-center w-screen my-6'>
         <Footer />
       </div>
       </div>
