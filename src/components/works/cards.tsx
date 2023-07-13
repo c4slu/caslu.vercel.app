@@ -17,7 +17,7 @@ const Cards: React.FC<CardsProps> = ({
   UrlWeb,
 }) => {
   return (
-    <div className="p-4 w-80 h-52 bg-white rounded-lg shadow transition-colors dark:bg-black hover:bg-white/5">
+    <div className="p-4 w-80 h-52 bg-black rounded-lg shadow transition-colors hover:bg-white/5">
       <div>{React.createElement(CardIcon)}</div>
       <a
         href={UrlWeb}
