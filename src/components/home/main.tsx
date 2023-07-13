@@ -22,14 +22,14 @@ export default function Main() {
           Front-End Developer | Data Analyst
         </p>
         <p className="text-gray-400 pt-1 text-sm">
-          Um programador, focado em virar uma refêrencia.
+          A programmer, focused on becoming a reference.
         </p>
         <Link href="./works">
           <button className="transition-colors mt-4 transition-hover duration-500 hover:bg-white/10 rounded p-2 ">
             <span className="text-white gap-2 flex items-center">
               <BsPersonWorkspace />
               <p className="font-semibold text-sm text-white flex items-center justify-center">
-                Acesse meus projetos
+                Access my projects
               </p>
             </span>
           </button>

@@ -17,13 +17,12 @@ export default function MainWorks() {
         transition={{ duration: 0.5 }}
       >
         <h1 className="bg-clip-text w-full flex justify-center mt-14 items-center text-transparent font-bold text-2xl bg-gradient-to-r from-emerald-500 to-lime-600">
-          Projetos & Hobbies
+          Projects & Hobbies
         </h1>
         <p className="flex justify-center text-gray-400 pt-10 text-center">
-          Essa página lista os principais projetos que venho{" "}
-          <br />
-          desenvolvendo durante a minha jornada como
-          programador.
+          This page lists the main projects I've been
+          working on <br />
+          developing during my journey as programmer.
         </p>
       </motion.div>
       <motion.div
@@ -36,21 +35,21 @@ export default function MainWorks() {
           <Cards
             CardIcon={BsFillCloudDrizzleFill}
             CardName="Scare Climate"
-            CardDesc=" Fique por dentro das condições climáticas em tempo real com nosso app de previsão do tempo confiável e preciso."
+            CardDesc=" Stay on top of real-time weather conditions with our reliable and accurate weather forecast app."
             UrlRepositorio="https://github.com/c4slu/scare-climate"
             UrlWeb="https://scare-climate.vercel.app/"
           />
           <Cards
             CardIcon={BsFillChatRightTextFill}
             CardName="Rewrite Text"
-            CardDesc="Reescreva textos automaticamente utilizando a API do ChatGPT."
+            CardDesc="Automatically rewrite texts using the ChatGPT API."
             UrlRepositorio="https://github.com/c4slu/rewrite-text"
             UrlWeb="https://rewrite-text.vercel.app/"
           />
           <Cards
             CardIcon={BsFillClipboardDataFill}
             CardName="NLW Habbits"
-            CardDesc="Controle de Hábitos dia a dia."
+            CardDesc="Day to Day Habit Control."
             UrlRepositorio="https://github.com/c4slu/NLW-Habbits"
             UrlWeb="https://c4slu.github.io/NLW-Habbits/"
           />
