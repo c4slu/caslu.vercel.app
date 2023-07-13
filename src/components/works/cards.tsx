@@ -24,11 +24,11 @@ const Cards: React.FC<CardsProps> = ({
         target="_blank"
         rel="noopener noreferrer"
       >
-        <h5 className="mb-2 mt-5 text-xl font-semibold tracking-tight text-gray-950 dark:text-white">
+        <h5 className="mb-2 mt-5 text-xl font-semibold tracking-tight text-white">
           {CardName}
         </h5>
       </a>
-      <p className="mb-3 font-normal text-sm text-gray-500 dark:text-gray-400">
+      <p className="mb-3 font-normal text-sm text-gray-400">
         {CardDesc}
       </p>
       <a
@@ -39,7 +39,7 @@ const Cards: React.FC<CardsProps> = ({
       >
         Repositório
         <span className="font-bold pl-2 group-hover:underline">
-        <BsCodeSlash/>
+          <BsCodeSlash />
         </span>
       </a>
     </div>
