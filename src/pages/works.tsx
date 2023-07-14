@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Footer from '../components/footer';
 import Navbar  from '../components/nav';
-import MainWorks from '../components/works/main';
+import MainWorks from "../components/works/main";
 export default function Workds() {
 
 
@@ -11,12 +11,12 @@ export default function Workds() {
         <title>Caslu \\ Works</title>
       </Head>
       ;
-      <div className="mb-10 bg-black">
+      <div className=" bg-black">
         <Navbar />
-        <div className="mt-20">
+        <div className="mt-5">
           <MainWorks />
         </div>
-        <div className="absolute bottom-0 flex justify-center w-screen my-6">
+        <div className="bottom-0 mx-auto justify-center">
           <Footer />
         </div>
       </div>
