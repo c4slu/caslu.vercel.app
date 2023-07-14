@@ -17,14 +17,14 @@ const Cards: React.FC<CardsProps> = ({
   UrlWeb,
 }) => {
   return (
-    <div className="cursor-pointer">
+    <div className="cursor-pointer ">
       <a
         href={UrlWeb}
         target="_blank"
         rel="noopener noreferrer"
         className=""
       >
-        <div className="no-underline p-4 w-80 h-52 bg-black rounded-lg  shadow transition-colors hover:bg-white/5">
+        <div className="no-underline transition-all duration-500 p-4 w-80 h-52 bg-black rounded-lg shadow hover:bg-white/5">
           <div>{React.createElement(CardIcon)}</div>
           <div className="flex flex-col justify-between items-start h-full text-200">
             <div>

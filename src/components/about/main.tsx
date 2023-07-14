@@ -126,21 +126,14 @@ const [isHovered, setIsHovered] = useState(false);
             href="https://docs.google.com/document/d/1-IxdGAEt-yocVrrxDpWI7rXR_CHV9eVmEiBHvCFkt4A/edit?usp=sharing"
             target="_blank"
           >
-            <motion.button
-              className={` flex gap-2 my-5 items-center  cursor-pointer font-medium uppercase text-xs px-3 py-1.5 transition-colors ${
-                isHovered
-                  ? "bg-white/10 px-2 rounded text-white"
-                  : "text-gray-400"
-              }`}
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-            >
-              <FaFileDownload />
-              Download CV
-            </motion.button>
+            <button className="relative hover:shadow-[0px_0px_20px_8px_#10b98130] transition-all  inline-flex items-center  duration-500 justify-center p-0.5 mt-3  overflow-hidden text-sm font-medium text-black rounded-lg group bg-gradient-to-br from-emerald-500 to-lime-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-2 focus:outline-none focus:ring-black ">
+              <span className="flex gap-2 items-center px-5 py-1.5 transition-all ease-in duration-75 bg-black rounded-md group-hover:bg-opacity-0">
+                <FaFileDownload />
+                <p className="text-sm text-white flex items-center justify-center">
+                  Download CV
+                </p>
+              </span>
+            </button>
           </a>
         </motion.div>
       </motion.div>
