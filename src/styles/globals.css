@@ -1,5 +1,12 @@
 @tailwind base;
 
+@layer utilities {
+  .border-gradient {
+    border-image: linear-gradient(to right, #10b981, #65a30d);
+    border-image-slice: 1;
+  }
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: #0fa968 #0fa968;

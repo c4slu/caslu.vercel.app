@@ -19,16 +19,16 @@ export default function Main() {
           Lucas R. do Nascimento
         </p>
         <p className="text-gray-200 pt-4 font-semibold">
-          Front-End Developer | Data Analyst
+          Front-End Developer | MIS Analyst
         </p>
         <p className="text-gray-400 pt-1 text-sm">
           A programmer, focused on becoming a reference.
         </p>
         <Link href="./works">
-          <button className="transition-colors mt-4 transition-hover duration-500 hover:bg-white/10 rounded p-2 ">
-            <span className="text-white gap-2 flex items-center">
+          <button className="relative hover:shadow-[0px_0px_20px_8px_#10b98150] transition-all  inline-flex items-center  duration-500 justify-center p-0.5 mt-3  overflow-hidden text-sm font-medium text-black rounded-lg group bg-gradient-to-br from-emerald-500 to-lime-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-2 focus:outline-none focus:ring-black ">
+            <span className="flex gap-2 items-center px-5 py-1.5 transition-all ease-in duration-75 bg-black rounded-md group-hover:bg-opacity-0">
               <BsPersonWorkspace />
-              <p className="font-semibold text-sm text-white flex items-center justify-center">
+              <p className=" text-sm text-white flex items-center justify-center">
                 Access my projects
               </p>
             </span>

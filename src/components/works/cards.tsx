@@ -17,30 +17,38 @@ const Cards: React.FC<CardsProps> = ({
   UrlWeb,
 }) => {
   return (
-    <div className="p-4 w-80 h-52 bg-black rounded-lg shadow transition-colors hover:bg-white/5">
-      <div>{React.createElement(CardIcon)}</div>
+    <div className="cursor-pointer">
       <a
         href={UrlWeb}
         target="_blank"
         rel="noopener noreferrer"
+        className=""
       >
-        <h5 className="mb-2 mt-5 text-xl font-semibold tracking-tight text-white">
-          {CardName}
-        </h5>
-      </a>
-      <p className="mb-3 font-normal text-sm text-gray-400">
-        {CardDesc}
-      </p>
-      <a
-        href={UrlRepositorio}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group inline-flex items-center text-200 hover:underline"
-      >
-        Repositório
-        <span className="font-bold pl-2 group-hover:underline">
-          <BsCodeSlash />
-        </span>
+        <div className="no-underline p-4 w-80 h-52 bg-black rounded-lg  shadow transition-colors hover:bg-white/5">
+          <div>{React.createElement(CardIcon)}</div>
+          <div className="flex flex-col justify-between items-start h-full text-200">
+            <div>
+              <h5 className="mb-2 mt-5 text-xl font-semibold tracking-tight text-white">
+                {CardName}
+              </h5>
+              <p className="mb-3 font-normal text-sm text-gray-400">
+                {CardDesc}
+              </p>
+            </div>
+            <div className="flex items-center">
+              <a
+                href={UrlRepositorio}
+                target="_blank"
+                className="hover:underline"
+              >
+                <span className="mt-auto flex pr-2 py-2 gap-2 items-center">
+                  Repositório
+                  <BsCodeSlash />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
       </a>
     </div>
   );
