@@ -28,7 +28,7 @@ const Cards: React.FC<CardsProps> = ({
           <div>{React.createElement(CardIcon)}</div>
           <div className="flex flex-col justify-between items-start h-full text-200">
             <div>
-              <h5 className="mb-2 mt-5 text-xl font-semibold tracking-tight text-white">
+              <h5 className="mb-2 mt-5 text-base font-bold tracking-tight text-white">
                 {CardName}
               </h5>
               <p className="mb-3 font-normal text-sm text-gray-400">

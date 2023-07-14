@@ -42,6 +42,8 @@ export default function MainWorks() {
 
     fetchPinnedRepos();
   }, []);
+  
+  
 
   return (
     <div className="bg-black text-white">
@@ -72,7 +74,7 @@ export default function MainWorks() {
                 <Cards
                   key={repo.id}
                   CardIcon={BsCollectionFill}
-                  CardName={repo.name}
+                  CardName={repo.name.toUpperCase()}
                   CardDesc={repo.description}
                   UrlRepositorio={repo.html_url}
                   UrlWeb={repo.homepage}
