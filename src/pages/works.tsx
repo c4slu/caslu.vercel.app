@@ -16,9 +16,7 @@ export default function Workds() {
         <div className="mt-5">
           <MainWorks />
         </div>
-        <div className="bottom-0 mx-auto justify-center">
-          <Footer />
-        </div>
+
       </div>
     </>
   );
