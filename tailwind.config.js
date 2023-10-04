@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         "gradient-green":
           "radial-gradient(var(--tw-gradient-stops))",
+        avatar: "url('https://avatars.githubusercontent.com/c4slu')",
       },
       colors: {
         50: "#ecfdf3",
