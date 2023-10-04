@@ -32,7 +32,7 @@ const [isHovered, setIsHovered] = useState(false);
         className="flex gap-2 justify-center text-gray-500"
       >
         <Image
-          src="url('https://avatars.githubusercontent.com/c4slu')"
+          src="https://avatars.githubusercontent.com/c4slu"
           alt=""
           className="rounded-2xl w-96 h-96 object-cover overflow-hidden sm:m-10 mx-auto mb-10"
         />
